@@ -1,4 +1,4 @@
-package com.home.UserLogin.AppUser;
+package com.home.UserLogin.appUser;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
