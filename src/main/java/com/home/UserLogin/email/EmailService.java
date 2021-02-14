@@ -33,8 +33,8 @@ public class EmailService implements EmailSender{
             helper.setFrom("info@jdkoda.com");
             mailSender.send(mimeMessage);
         } catch (MessagingException e) {
-            LOGGER.error("failed to send email", e);
-            throw new IllegalStateException("failed to send email");
+            LOGGER.error("Failed to send email", e);
+            throw new IllegalStateException("Failed to send email");
         }
     }
 }
