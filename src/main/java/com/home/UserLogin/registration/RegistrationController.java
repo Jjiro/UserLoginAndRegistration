@@ -2,7 +2,6 @@ package com.home.UserLogin.registration;
 
 
 import lombok.AllArgsConstructor;
-import org.springframework.boot.autoconfigure.security.saml2.Saml2RelyingPartyProperties;
 import org.springframework.web.bind.annotation.*;
 
 
